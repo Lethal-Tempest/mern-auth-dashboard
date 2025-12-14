@@ -57,7 +57,7 @@ mern-auth-dashboard/
         auth.js
         validators.js
       main.jsx
-    .env.example
+    .env
     package.json
     vite.config.js
     tailwind.config.js
@@ -93,8 +93,8 @@ mern-auth-dashboard/
     package.json
 
   docs/
-    api.md
-    postman_collection.json
+    API_DOCS.md
+    POSTMAN_COLLECTION.json
     SCALING.md
   
   README.md
@@ -348,4 +348,4 @@ Created for Frontend Developer Intern Task at PrimeTrade.ai
 
 ---
 
-For questions or issues, refer to the API docs (`docs/api.md`) or review the code comments in the respective files.
+For questions or issues, refer to the API docs (`docs/API_DOCS.md`) or review the code comments in the respective files.
