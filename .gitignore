@@ -1,26 +1,96 @@
-# Logs
-logs
-*.log
+############################################
+# Secrets / Environment
+############################################
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+############################################
+# Node / Package managers
+############################################
+node_modules/
+**/node_modules/
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# package manager caches (optional)
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+############################################
+# Build outputs
+############################################
+dist/
+build/
+out/
+coverage/
+**/dist/
+**/build/
+**/out/
+**/coverage/
+
+# Vite
+client/.vite/
+**/.vite/
+
+# Next.js (in case you switch later)
+.next/
+**/.next/
+
+############################################
+# Logs
+############################################
+logs/
+*.log
+**/logs/
+**/*.log
+
+############################################
+# OS / Editor / IDE
+############################################
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-.env
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+.idea/
+*.iml
+
+############################################
+# Temporary / cache
+############################################
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+
+############################################
+# Runtime data
+############################################
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+############################################
+# Optional: Ignore local uploads if any
+############################################
+uploads/
+**/uploads/
